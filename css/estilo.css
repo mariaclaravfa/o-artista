@@ -43,3 +43,70 @@ footer {
   color: #ddd;
 }
 
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#menu{
+  display: flex;
+
+}
+
+#menu li{
+  list-style: none;
+  margin: 15px;
+  border-radius: 4px;
+}
+
+#menu a {
+  border-radius: 10px;
+  padding:20px;
+}
+
+#logo{
+  width: 200px;
+
+}
+
+#email a{
+  color:#fff;
+}
+
+#contato{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#principal{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#principal img{
+  width: 200px;
+  margin-left: 400px;
+}
+
+#sec_ctd{
+  justify-content: center;
+  margin-right: 550px;
+}
+h1{
+  text-align: right;
+}
+
+#second img{
+  width: 200px;
+  margin: 40px ;
+
+}
+#second{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
