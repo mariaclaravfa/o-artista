@@ -4,9 +4,11 @@ body {
   font-family: 'Poppins';
 }
 
-header, #principal, #second, #contato, #stream {
-	
-}
+header,
+#principal,
+#second,
+#contato,
+#stream {}
 
 .link-menu {
   color: #fff;
@@ -30,11 +32,12 @@ main {
   color: #ddd;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Amatic SC';
 }
 
-#second a{
+#second a {
   color: #fff;
 }
 
@@ -43,18 +46,19 @@ footer {
   color: #ddd;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
-#menu{
+
+#menu {
   display: flex;
 
 }
 
-#menu li{
+#menu li {
   list-style: none;
   margin: 15px;
   border-radius: 4px;
@@ -62,51 +66,105 @@ header{
 
 #menu a {
   border-radius: 10px;
-  padding:20px;
+  padding: 20px;
 }
 
-#logo{
+#logo {
   width: 200px;
 
 }
 
-#email a{
-  color:#fff;
+#email a {
+  color: #fff;
 }
 
-#contato{
+#contato {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#principal{
+#principal {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
 }
 
-#principal img{
+#principal img {
   width: 200px;
   margin-left: 400px;
 }
-
 #sec_ctd{
   justify-content: center;
   margin-right: 550px;
+  list-style: none;
+  text-decoration: none;
 }
-h1{
+#sec_ctd p {
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 85px;
+  margin-right: 70px;
+  text-decoration: none;
+
+}
+
+h1 {
   text-align: right;
 }
 
-#second img{
+#second img {
   width: 200px;
-  margin: 40px ;
+  margin: 40px;
 
 }
-#second{
+
+#second {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+#acesso {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgb(0,0,0);
+
+
+}
+#acesso img{
+  width: 30px;
+}
+#descricao  {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid;
+  margin: 90px 90px;
+  width: 600px;
+
+}
+
+#descricao {
+  padding: 50px;
+}
+
+
+
+footer img {
+  width: 20px;
+}
+
+ a{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Amatic SC';
+}
+section .l { 
+  list-style: none;
+  text-decoration: none;
+  color:white;
+  font-family: 'Amatic SC';
+
 }
