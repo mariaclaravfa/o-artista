@@ -62,6 +62,7 @@ header {
   list-style: none;
   margin: 15px;
   border-radius: 4px;
+
 }
 
 #menu a {
@@ -156,7 +157,7 @@ footer img {
   width: 20px;
 }
 
- a{
+ #acesso a{
   text-decoration: none;
   list-style: none;
   font-family: 'Amatic SC';
